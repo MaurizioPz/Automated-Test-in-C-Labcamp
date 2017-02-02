@@ -38,7 +38,7 @@ public class Environment
   }
   
   [TearDown]
-  public void Complex()
+  public void TearDown()
   {
     CleanUp();
   }
